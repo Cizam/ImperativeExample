@@ -12,9 +12,18 @@ class ViewController: UIViewController {
 
   override func viewDidLoad() {
     super.viewDidLoad()
-    // Do any additional setup after loading the view.
   }
 
+  @IBAction func actionButton1(_ sender: UIButton) {
+    print("Hello world")
+  }
 
+  @IBAction func actionButton2(_ sender: UIButton) {
+    print("Hello world")
+  }
+
+  @IBAction func actionButton3(_ sender: UIButton) {
+    print("Hello world")
+  }
 }
 
